@@ -1,2 +1,9 @@
 # Ing.-en-Software-Duoc-UC
-Ing. en Software
+
+Profesor:
+- Jorge Canales
+
+Estudiantes:  
+- Matias Jorquera
+- Jorge Frick
+- Manuel Soto
