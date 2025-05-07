@@ -1,0 +1,55 @@
+Manual de Pruebas de Usuario
+
+Objetivo: Validar que el sistema funcione correctamente desde la perspectiva del usuario final.
+Escenario: Usuario realiza una reserva de habitación en línea.
+Casos de prueba:
+
+    Inicio de sesión
+
+        Acción: Ingresar con usuario y contraseña válidos.
+
+        Resultado esperado: Acceso al sistema y visualización del panel de cliente.
+
+    Consulta de habitaciones disponibles
+
+        Acción: Seleccionar fechas y buscar habitaciones.
+
+        Resultado esperado: Listado con habitaciones disponibles y sus detalles.
+
+    Reserva de habitación
+
+        Acción: Seleccionar habitación, días y confirmar reserva.
+
+        Resultado esperado: Reserva creada con mensaje de confirmación y código QR.
+
+    Pago simulado
+
+        Acción: Ingresar datos de tarjeta (modo prueba).
+
+        Resultado esperado: Validación y mensaje de pago exitoso.
+
+    Acceso como administrador
+
+        Acción: Ingresar como usuario administrador.
+
+        Resultado esperado: Acceso al panel de gestión de precios, habitaciones y usuarios.
+
+Modelamientos y Prototipados
+
+    Modelo UML 4+1:
+
+        Escenario: Diagrama de casos de uso para cliente y administrador.
+
+        Proceso: Diagrama de actividad para flujo de reserva y pago.
+
+        Lógico: Diagrama de clases para usuarios, reservas, pagos y habitaciones.
+
+        Despliegue: Diagrama de componentes (frontend, backend, base de datos).
+
+        Físico: Imágenes de tecnologías utilizadas (Django, Oracle, HTML, CSS), conectadas según su función.
+
+    Prototipos (Figma):
+
+        Pantalla de inicio, login, listado de habitaciones, formulario de reserva y confirmación.
+
+        Prototipo del panel de administrador para la gestión de recursos.
